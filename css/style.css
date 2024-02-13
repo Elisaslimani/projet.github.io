@@ -1,0 +1,182 @@
+@import url(components/avatar.css);
+@import url(components/container.css);
+@import url(components/button.css);
+
+@media only screen and (max-width: 600px) {
+
+
+    .images {
+        width: 300px; 
+
+    }
+    .bouton-rose {
+        margin: 5px; /* Ajouter un espacement entre les boutons pour les petits écrans */
+        padding: 10px 10px;
+        font-size: 9px;
+    }
+
+
+    .logo-app {
+        width: 30px; /* Réduire la taille des logos d'application pour les petits écrans */
+        margin: 10px; /* Ajouter un espacement entre les logos d'application pour les petits écrans */
+    }
+    .cadre {
+        display: flexbox;
+        flex-direction: column; /* Aligner les cadres verticalement pour les petits écrans */
+        align-items: center; /* Centrer les éléments à l'intérieur des cadres pour les petits écrans */
+        margin: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .cadre2 {
+        text-align: center; /* Centrer le texte dans le cadre 2 pour les petits écrans */
+        margin: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .liste {
+        font-size: 12px; /* Réduire la taille de la police pour les petits écrans */
+    }
+    
+    .bas-de-page {
+        margin: 0; /* Réinitialiser la marge pour les petits écrans */
+    }
+
+}
+h1 {
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4e4e4e;
+    text-align: center;
+    padding: 0px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+    
+p {
+    font-size: 32px;
+    font-family:Arial, Helvetica, sans-serif ;
+    text-align: center;
+    margin-top: 0px;
+    padding: 0px;
+}
+body {
+    background: #fffefb;
+
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    background-color: #4e4e4e;
+    box-shadow: 4px 10px 10px #4e4e4e;
+}
+
+
+h2 {
+    font-size: 18px;
+    padding-top: 10px;
+
+}
+
+
+div2 {
+    display: flex;
+flex-direction: row;
+    text-align: center;
+    size-adjust: 100%;
+    
+}
+.text {
+    font-size: 15px;
+    font-family:Arial ;
+    max-width: 200px;
+}
+
+.logo-app{
+    width: 50px;
+    margin: 30px;
+}
+
+.container {
+    max-width: 1000px;
+    display: flexbox;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+
+label {
+    display: block;
+    margin: 5px;
+    color:#4e4e4e;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 800px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+div4 {
+    display: flex;
+flex-direction: row;
+    margin: 10px;
+    text-align: left;
+    
+}
+.banner {
+background-image: url("../images/pexels-mart-production-7577802.jpg");
+background-size: cover;
+background-position:center;
+color: #fffefb;
+display: flexbox;
+flex-direction: column;
+
+}
+
+h3 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4b4b4b;
+    text-align: center;
+    padding: 0px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+p2 {
+    font-size: 32px;
+    font-family:Arial, Helvetica, sans-serif ;
+    text-align: center;
+    margin-top: 30px;
+    padding: 0px;
+}
+h4 {
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    padding: 0px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}

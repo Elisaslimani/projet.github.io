@@ -1,0 +1,35 @@
+
+.bouton-rose {
+    background-color: #9e9e9e;
+    color: #000000;
+    text-align: center;
+    font-size: 15px;
+    margin: 150px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 12px 15px;
+    border-radius: 20px ;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 1s;
+}
+.bouton-rose:hover {
+    background-color:#4e4e4e;
+    color: #ffffff;
+    transition: 1s;
+}
+.bouton-gris {
+    background-color: #9e9e9e;
+    color: #000000;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding: 12px 15px;
+    border-radius: 20px ;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 1s;
+}
+.bouton-gris:hover {
+    background-color:#4e4e4e;
+    color: #ffffff;
+    transition: 1s;
+}
